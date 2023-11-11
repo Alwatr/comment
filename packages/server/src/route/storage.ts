@@ -8,7 +8,7 @@ import type {ChatMessage, StringifyableRecord} from '@alwatr/type';
 nanoServer.route('GET', '/storage', getStorage);
 
 async function getStorage(
-    connection: AlwatrConnection,
+  connection: AlwatrConnection,
 ): Promise<AlwatrServiceResponse<Record<string, ChatMessage>, StringifyableRecord>> {
   logger.logMethod?.('getStorage');
 

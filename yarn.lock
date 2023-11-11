@@ -22,9 +22,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@alwatr/comment@workspace:packages/comment":
+"@alwatr/comment@workspace:packages/server":
   version: 0.0.0-use.local
-  resolution: "@alwatr/comment@workspace:packages/comment"
+  resolution: "@alwatr/comment@workspace:packages/server"
   dependencies:
     "@alwatr/logger": "npm:^2.1.3"
     "@alwatr/nano-server": "npm:^1.1.12"

@@ -1,11 +1,8 @@
 {
   "$schema": "node_modules/@lerna-lite/cli/schemas/lerna-schema.json",
-  "version": "4.0.0-rc.0",
+  "version": "1.0.0",
   "npmClient": "yarn",
-  "packages": [
-    "packages/*",
-    "demo"
-  ],
+  "packages": ["packages/*", "demo"],
   "loglevel": "verbose",
   "command": {
     "version": {
@@ -13,9 +10,7 @@
       "changelog": true,
       "changelogPreset": "conventional-changelog-angular",
       "changelogIncludeCommitsClientLogin": " by @%l",
-      "ignoreChanges": [
-        "*.md"
-      ],
+      "ignoreChanges": ["*.md"],
       "message": "release:",
       "private": true,
       "forceGitTag": true,

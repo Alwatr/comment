@@ -8,7 +8,7 @@ import type {ChatMessage, StringifyableRecord} from '@alwatr/type';
 nanoServer.route('PATCH', '/', setComment);
 
 async function setComment(
-    connection: AlwatrConnection,
+  connection: AlwatrConnection,
 ): Promise<AlwatrServiceResponse<ChatMessage, StringifyableRecord>> {
   logger.logMethod?.('setComment');
 
