@@ -9,5 +9,5 @@
   },
   "files": [],
   "exclude": [],
-  "references": [{"path": "./packages/comment"}]
+  "references": [{"path": "./packages/server"}]
 }
