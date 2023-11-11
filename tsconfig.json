@@ -10,6 +10,6 @@
   "files": [],
   "exclude": [],
   "references": [
-    {"path": "./services/comment"}
+    {"path": "./packages/comment"}
   ]
 }

@@ -22,6 +22,113 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@alwatr/comment@workspace:packages/comment":
+  version: 0.0.0-use.local
+  resolution: "@alwatr/comment@workspace:packages/comment"
+  dependencies:
+    "@alwatr/logger": "npm:^2.1.3"
+    "@alwatr/nano-server": "npm:^1.1.12"
+    "@alwatr/storage-client": "npm:^1.1.2"
+    "@alwatr/type": "npm:^1.1.5"
+    "@types/node": "npm:^20.9.0"
+    tslib: "npm:^2.6.2"
+    typescript: "npm:^5.2.2"
+  languageName: unknown
+  linkType: soft
+
+"@alwatr/fetch@npm:^1.1.2":
+  version: 1.1.3
+  resolution: "@alwatr/fetch@npm:1.1.3"
+  dependencies:
+    "@alwatr/logger": "npm:^1.1.3"
+    "@alwatr/signal": "npm:^1.1.2"
+    "@alwatr/util": "npm:^1.2.1"
+    tslib: "npm:^2.6.2"
+  checksum: 2cb8cb1077ffb20817b5c36351fab4c77e1ded71a9a6646433a4ab6157df9f1e7866826bce659de1c35823f248744dfa7fb57a0d67d6a4d1dca94bf090c8eeef
+  languageName: node
+  linkType: hard
+
+"@alwatr/logger@npm:^1.1.2, @alwatr/logger@npm:^1.1.3":
+  version: 1.2.0
+  resolution: "@alwatr/logger@npm:1.2.0"
+  dependencies:
+    "@alwatr/type": "npm:^1.1.4"
+    tslib: "npm:^2.6.2"
+  checksum: 9e46ae00f7c42ed677c4cc56ba3922aafc62f34e7bba3e3960650e63c669e7f8d91109a6e85f261b6745d29e102f71c3596188635c5f4f1e191514657dc08aa8
+  languageName: node
+  linkType: hard
+
+"@alwatr/logger@npm:^2.1.3":
+  version: 2.1.3
+  resolution: "@alwatr/logger@npm:2.1.3"
+  dependencies:
+    tslib: "npm:^2.6.2"
+  checksum: 7f2e43eb2a324a63b7603e205900c66f922cf81668d692368bb63cb6070a21a52fafc6d82e553c3ebc43f340feeac3ef1dd13871f989e317b61c6951786e294a
+  languageName: node
+  linkType: hard
+
+"@alwatr/math@npm:^1.1.12":
+  version: 1.1.12
+  resolution: "@alwatr/math@npm:1.1.12"
+  dependencies:
+    "@alwatr/logger": "npm:^2.1.3"
+    tslib: "npm:^2.6.2"
+  checksum: 10b8016dc63241edbe1b2ab4a9cc02d5a5d9c0cf373f5ecb3f4f17484dfaff422c901ef6b8bbda07db6819753b75740d9129afdb34df11c031d922aa06c3ab30
+  languageName: node
+  linkType: hard
+
+"@alwatr/nano-server@npm:^1.1.12":
+  version: 1.1.12
+  resolution: "@alwatr/nano-server@npm:1.1.12"
+  dependencies:
+    "@alwatr/logger": "npm:^2.1.3"
+    "@alwatr/math": "npm:^1.1.12"
+    tslib: "npm:^2.6.2"
+  checksum: aa1850ad58f5b2b8ba26e1a06060ca3e24b5cd9805fe7a26bc3fa4954271b80b54f97c615b98976ef43e58f2bcbded80ac8eab3cb103f7367407e39fe0ff4c3e
+  languageName: node
+  linkType: hard
+
+"@alwatr/signal@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "@alwatr/signal@npm:1.1.2"
+  dependencies:
+    "@alwatr/logger": "npm:^1.1.2"
+    "@alwatr/type": "npm:^1.1.1"
+    "@alwatr/util": "npm:^1.2.0"
+    tslib: "npm:^2.6.2"
+  checksum: ddd011b8e0e2bb6de231b39572a1c1ec2739b8d779dd662bee52d2c4fd0f71255bf2c4a277df8d5cd2c1be3d87b5bf650e442aa5a89963e7b1aafbc80bd67a67
+  languageName: node
+  linkType: hard
+
+"@alwatr/storage-client@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "@alwatr/storage-client@npm:1.1.2"
+  dependencies:
+    "@alwatr/fetch": "npm:^1.1.2"
+    "@alwatr/logger": "npm:^1.1.2"
+    tslib: "npm:^2.6.2"
+  checksum: 0c0d668ddafb36967a2ee2adbbea673c78a50b37cd9fd4da62c7a40285ca0b6377b0dca9d3d701d3c8fb73e5dea894bdde9567260d6b4eef64d91942e1ebd5f7
+  languageName: node
+  linkType: hard
+
+"@alwatr/type@npm:^1.1.1, @alwatr/type@npm:^1.1.4, @alwatr/type@npm:^1.1.5":
+  version: 1.1.5
+  resolution: "@alwatr/type@npm:1.1.5"
+  checksum: d87587dfd9dff8ceb42dbe187f3db4313877930da802c269596ebcdb1e3541ae0264e91f708882ddbc43a0cff5003583ab543593e080fcd051408e5998f3cdf6
+  languageName: node
+  linkType: hard
+
+"@alwatr/util@npm:^1.2.0, @alwatr/util@npm:^1.2.1":
+  version: 1.2.10
+  resolution: "@alwatr/util@npm:1.2.10"
+  dependencies:
+    "@alwatr/math": "npm:^1.1.12"
+    "@alwatr/type": "npm:^1.1.5"
+    tslib: "npm:^2.6.2"
+  checksum: c7f345ad11634aba9900fd59da1eb69998a2b7484b08ed672a081b012965380f4b7075ec0f99a5e917eb455312942db15c4c0416829808b532d38e303f0972f6
+  languageName: node
+  linkType: hard
+
 "@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.12.11, @babel/code-frame@npm:^7.21.4":
   version: 7.22.13
   resolution: "@babel/code-frame@npm:7.22.13"
@@ -7156,7 +7263,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.1.0":
+"tslib@npm:^2.1.0, tslib@npm:^2.6.2":
   version: 2.6.2
   resolution: "tslib@npm:2.6.2"
   checksum: e03a8a4271152c8b26604ed45535954c0a45296e32445b4b87f8a5abdb2421f40b59b4ca437c4346af0f28179780d604094eb64546bee2019d903d01c6c19bdb
