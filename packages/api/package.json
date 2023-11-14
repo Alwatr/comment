@@ -1,5 +1,5 @@
 {
-  "name": "@alwatr/comment",
+  "name": "@alwatr/comment-api",
   "version": "1.0.0",
   "description": "Alwatr Comment API Nanoservice, Distributed simple and fast comment nanoservice.",
   "type": "module",

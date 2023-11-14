@@ -1,3 +1,3 @@
-# Alwatr Storage Server (Nanoservice)
+# Alwatr Comment/Chat API (Nanoservice)
 
-Distributed simple and fast comment api nanoservice.
+Distributed simple and fast comment/chat api nanoservice.
