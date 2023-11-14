@@ -9,5 +9,5 @@
   },
   "files": [],
   "exclude": [],
-  "references": [{"path": "./packages/server"}]
+  "references": [{"path": "./packages/api"}]
 }
