@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/Alwatr/comment/compare/v1.0.0...v1.0.1) (2023-11-14)
+
+### Bug Fixes
+
+* remove demo package and api package name and docs ([37ec6a3](https://github.com/Alwatr/comment/commit/37ec6a376ef62fed14199fc52878b54bc44d123c)) by @AliMD
+
 ## [1.0.1](https://github.com/AliMD/alwatr/compare/v1.0.0...v1.0.1) (2023-06-21)
 
 **Note:** Version bump only for package @alwatr/comment
